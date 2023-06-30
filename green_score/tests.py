@@ -1,3 +1,10 @@
 from django.test import TestCase
 
-# Create your tests here.
+
+class ModelTesting(TestCase):
+
+    def setUp(self):
+        pass
+
+    def test_post_model(self):
+        self.assertEqual(1,1)
